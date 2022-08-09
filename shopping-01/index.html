@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <title>JS list</title>
+  <style>
+    body {
+      background-image: url("img/shopping.jpg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <main>
+        <div class="shopping w-75 mx-auto p-3 mb-2 bg-light text-dark">
+          <h1 class="shopping__heading text-center mb-5">Shopping list</h1>
+          <form class="shopping__form" autocomplete="off">
+            <div class="shopping__container d-flex justify-content-center mb-3">
+              <input class="shopping__input form-control w-25" id="shopping-items" type="text" placeholder="Your item" required>
+              <button class="btn btn-primary" type="submit">Add</button>
+            </div>
+          </form>
+
+          <ol class="shopping__list mx-auto"></ol>
+        </div>
+  </main>
+
+  <script src=" ./js/script.js">
+  </script>
+</body>
+
+</html>
